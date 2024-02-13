@@ -64,3 +64,7 @@ const fruits = ["banana", "orange", "mango", "lemon"];
 let firstFruit = fruits[0]; // we are accessing the first item using its index
 
 console.log(firstFruit);
+
+for (let i = 0; i <= 5; i++) {
+  console.log(i);
+}
