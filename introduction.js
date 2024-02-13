@@ -68,3 +68,15 @@ console.log(firstFruit);
 for (let i = 0; i <= 5; i++) {
   console.log(i);
 }
+
+let numbers = [1, 2, 3, 4, 5]
+for (const num of numbers) {
+  console.log(num*num)
+}
+
+for (i = 0; i <= 5; i++){
+  if (i == 3) {
+    break
+  }
+  console.log(i)
+}
