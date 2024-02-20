@@ -40,43 +40,79 @@
 // const now = new Date();
 // console.log(now);
 
-let num = 3
-if (num > 0) {
-    console.log("today is raining")
-}
+// let num = 3
+// if (num > 0) {
+//     console.log("today is raining")
+// }
 
-let weather = "cloudy";
-switch (weather) {
-  case "rainy":
-    console.log("You need a rain coat.");
+// let weather = "cloudy";
+// switch (weather) {
+//   case "rainy":
+//     console.log("You need a rain coat.");
    
-  case "cloudy":
-    console.log("It might be cold, you need a jacket.");
+//   case "cloudy":
+//     console.log("It might be cold, you need a jacket.");
    
-  case "sunny":
-    console.log("Go out freely.");
-    break;
-  default:
-    console.log(" No need for rain coat.");
-}
+//   case "sunny":
+//     console.log("Go out freely.");
+//     break;
+//   default:
+//     console.log(" No need for rain coat.");
+// }
 
-const fruits = ["banana", "orange", "mango", "lemon"];
-let firstFruit = fruits[0]; // we are accessing the first item using its index
+// const fruits = ["banana", "orange", "mango", "lemon"];
+// let firstFruit = fruits[0]; // we are accessing the first item using its index
 
-console.log(firstFruit);
+// console.log(firstFruit);
 
-for (let i = 0; i <= 5; i++) {
-  console.log(i);
-}
+// for (let i = 0; i <= 5; i++) {
+//   console.log(i);
+// }
 
-let numbers = [1, 2, 3, 4, 5]
-for (const num of numbers) {
-  console.log(num*num)
-}
+// let numbers = [1, 2, 3, 4, 5]
+// for (const num of numbers) {
+//   console.log(num*num)
+// }
 
-for (i = 0; i <= 5; i++){
-  if (i == 3) {
-    break
-  }
-  console.log(i)
-}
+// for (i = 0; i <= 5; i++){
+//   if (i == 3) {
+//     break
+//   }
+//   console.log(i)
+// }
+
+//  function addTwoNumbers() {
+//    let numOne = 2;
+//    let numTwo = 3;
+//    let total = numOne + numTwo;
+//    return total;
+//  }
+
+// console.log(addTwoNumbers());
+ 
+
+// function areaOfCircle(r) {
+//   let area = Math.PI * r * r;
+//   return area;
+// }
+
+// console.log(areaOfCircle(10));
+
+// function greetings(name = "Peter") {
+//   let message = `${name}, welcome to 30 Days Of JavaScript!`;
+//   return message;
+// }
+
+// console.log(greetings());
+// console.log(greetings("Asabeneh"));
+
+
+// const numbers = [1, 2, 3, 4, 5]
+// const numberSquare = numbers.map((num) = num * num)
+// console.log(numberSquare)
+
+
+const numbers = [1, 2, 3]
+  let [numOne, numTwo, numThree] = numbers
+
+  console.log(numOne, numTwo, numThree)
